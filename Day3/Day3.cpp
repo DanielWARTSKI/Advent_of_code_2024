@@ -9,7 +9,7 @@ int main() {
     int total_v2 = 0;
     bool enabled = 1;
 
-    std::ifstream file("input3.txt");
+    std::ifstream file("Advent_of_code_2024/Day3/input3.txt");
 
     //std::regex pattern(R"(mul\((\d{1,3}),(\d{1,3})\))");
     std::regex pattern_do_dont(R"(do\(\)|don't\(\)|mul\((\d{1,3}),(\d{1,3})\))");

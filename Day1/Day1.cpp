@@ -8,7 +8,7 @@ std::priority_queue<int, std::vector<int>, std::greater<int> > queue1;
 std::priority_queue<int, std::vector<int>, std::greater<int> > queue2;
 
 int main(){
-    std::ifstream file("input1.txt");
+    std::ifstream file("Advent_of_code_2024/Day1/input1.txt");
 
     int val1, val2;
 

@@ -6,7 +6,7 @@
 #include <string>
 
 int main(){
-    std::ifstream file("input2.txt");
+    std::ifstream file("Advent_of_code_2024/Day2/input2.txt");
     std::string line;
     int count_safe = 0;
     int count_really_safe = 0;

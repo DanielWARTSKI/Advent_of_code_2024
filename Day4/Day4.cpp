@@ -5,7 +5,7 @@
 
 
 int main() {
-    std::ifstream file("input4.txt");
+    std::ifstream file("Advent_of_code_2024/Day4/input4.txt");
     std::vector<std::vector<char>> table;
     std::string line;
     std::vector <std::pair<int, int>> X_coord;
